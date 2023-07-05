@@ -14,4 +14,9 @@ jobs:
         with:
            mdbook-version: 'latest'
       - run: mdbook build
-
+      - name: store Artefact
+          uses: actions/upload-artifact@v2
+          with:
+            name: tzsafe-docs-website-mdbook
+            path: ./book
+            retention-days: 1
