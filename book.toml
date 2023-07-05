@@ -1,0 +1,6 @@
+[book]
+authors = ["Jason Ridgway-Taylor"]
+language = "en"
+multilingual = true
+src = "src"
+title = "TzSafe Documentation"
