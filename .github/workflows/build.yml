@@ -20,3 +20,8 @@ jobs:
           name: "tzsafe-docs-website-mdbook"
           path: ./book
           retention-days: 1
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
