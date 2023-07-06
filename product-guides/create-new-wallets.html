@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Create new wallets - TzSafe Documentation</title>
+        <title>Create new wallets - TzSafe Documentation (MdBook)</title>
 
 
         <!-- Custom HTML head -->
@@ -12,7 +12,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-        <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
         <link rel="stylesheet" href="../css/variables.css">
         <link rel="stylesheet" href="../css/general.css">
@@ -29,7 +28,10 @@
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/marigold.css">
 
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body>
     <div id="body-container">
@@ -83,7 +85,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 📪 TzSafe</a></li><li class="chapter-item expanded "><a href="../product-guides/create-new-wallets.html" class="active"><strong aria-hidden="true">2.</strong> Create new wallets</a></li><li class="chapter-item expanded "><a href="../product-guides/import-wallets.html"><strong aria-hidden="true">3.</strong> Import wallets</a></li><li class="chapter-item expanded "><a href="../product-guides/fund-wallet.html"><strong aria-hidden="true">4.</strong> Fund wallet</a></li><li class="chapter-item expanded "><a href="../product-guides/create-proposals.html"><strong aria-hidden="true">5.</strong> Create Proposals</a></li><li class="chapter-item expanded "><a href="../product-guides/sign-reject-and-resolve-proposals.html"><strong aria-hidden="true">6.</strong> Sign, Reject and Resolve Proposals</a></li><li class="chapter-item expanded "><a href="../product-guides/setting.html"><strong aria-hidden="true">7.</strong> Setting</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 📪 TzSafe</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../product-guides/create-new-wallets.html" class="active"><strong aria-hidden="true">1.1.</strong> Create new wallets</a></li><li class="chapter-item expanded "><a href="../product-guides/import-wallets.html"><strong aria-hidden="true">1.2.</strong> Import wallets</a></li><li class="chapter-item expanded "><a href="../product-guides/fund-wallet.html"><strong aria-hidden="true">1.3.</strong> Fund wallet</a></li><li class="chapter-item expanded "><a href="../product-guides/create-proposals.html"><strong aria-hidden="true">1.4.</strong> Create Proposals</a></li><li class="chapter-item expanded "><a href="../product-guides/sign-reject-and-resolve-proposals.html"><strong aria-hidden="true">1.5.</strong> Sign, Reject and Resolve Proposals</a></li><li class="chapter-item expanded "><a href="../product-guides/setting.html"><strong aria-hidden="true">1.6.</strong> Setting</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,11 +136,14 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">TzSafe Documentation</h1>
+                    <h1 class="menu-title">TzSafe Documentation (MdBook)</h1>
 
                     <div class="right-buttons">
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/marigold-dev/tzsafe-doc-mdbook-poc" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
 
                     </div>
@@ -217,11 +222,19 @@
 
 
 
+        <script>
+            window.playground_line_numbers = true;
+        </script>
 
         <script>
             window.playground_copyable = true;
         </script>
 
+        <script src="../ace.js"></script>
+        <script src="../editor.js"></script>
+        <script src="../mode-rust.js"></script>
+        <script src="../theme-dawn.js"></script>
+        <script src="../theme-tomorrow_night.js"></script>
 
         <script src="../elasticlunr.min.js"></script>
         <script src="../mark.min.js"></script>
@@ -232,6 +245,7 @@
         <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+        <script src="../theme/marigold.js"></script>
 
 
     </div>
